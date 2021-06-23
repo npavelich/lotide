@@ -19,4 +19,5 @@ const assertArraysEqual = function(actual, expected) {
 
 };
 
+
 console.log(assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true))
