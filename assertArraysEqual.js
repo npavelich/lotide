@@ -11,12 +11,11 @@ const eqArrays = function(array1, array2) {
 }
 
 const assertArraysEqual = function(actual, expected) {
-  if (actual === expected) {
+  if (eqArrays(actual, expected)) {
     return `The arrays and are the same`;
   } else {
     return `The arrays are not the same`;
   }
-
 };
 
 
